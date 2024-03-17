@@ -4,8 +4,7 @@ void main()
 {
 while(1)
 {
-P1 = 0xAA; // Pattern to turn on alternate LEDs -
-10101010
+P1 = 0xAA; // Pattern to turn on alternate LEDs 
 delay();
 P1 = 0x55; // Reverse the pattern
 delay();
